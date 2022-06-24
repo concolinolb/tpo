@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Melek 😺</title>
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Lexend:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/3682b977b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+                <i class="fa-solid fa-cat"></i>
+                <span>
+                    <a href="index.html">Dulce Melek</a>
+                </span>
+        </div>
+        <nav id="encabezado">
+            <div>
+            <ul class="paginas">
+                <li>
+                    <a href="quienessomos.html">Quienes somos</a>
+                </li>
+                <li>
+                    <a href="temas.html">Temas</a>
+                </li>
+                <li>
+                    <a href="materialexclusivo.html">Material exclusivo</a>
+                </li>
+            </ul>
+            </div>
+
+        </nav>
+        
+        <div>
+            <h1 class="presentacion">¡Suscribite a nuestro newsletter y recibí contenido exclusivo!</h1>
+            <script src="./js/validarFormulario.js"></script>
+            <form action="" method="get" id="newsletter" class="formulario" onsubmit="validarFormulario()">
+                <br>
+                <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder=" ¿Cómo te llamás? ">
+                </p>
+                <br>
+                <p><label for="email">Correo electrónico:</label>
+                <input type="email" name="email" id="email" placeholder=" ¿A dónde te escribimos? ">
+                </p>
+                <br>
+                <div>
+                    <input type="submit" value=" ¡Quiero recibir el contenido exclusivo! " id="botonEnviar">
+                </div>
+                <br>
+            </form>
+        </div>
+        
+    </main>
+
+    <footer id="piedepagina">
+        <div>
+            <ul class="paginas">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="quienessomos.html">Quienes somos</a>
+                </li>
+                <li>
+                    <a href="temas.html">Temas</a>
+                </li>
+                <li>
+                    <a href="materialexclusivo.html">Material exclusivo</a>
+                </li>
+            </ul>
+            </div>
+    </footer>
+    
+
+</body>
+
+</html>
